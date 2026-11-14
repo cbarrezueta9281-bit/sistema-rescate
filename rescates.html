@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Consulta de ejemplo de animales registrados para rescate.">
+  <title>Patitas - Registro de rescates</title>
+</head>
+<body>
+  <header>
+    <h1>Registro de rescates</h1>
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="reportar.html">Reportar un animal</a></li>
+        <li><a href="rescates.html" aria-current="page">Registro de rescates</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-labelledby="listado">
+      <h2 id="listado">Casos registrados (datos de ejemplo)</h2>
+      <p>La siguiente tabla contiene información ficticia utilizada únicamente para demostrar la estructura HTML.</p>
+      <table>
+        <caption>Listado de animales reportados y su estado de atención</caption>
+        <thead>
+          <tr>
+            <th scope="col">Código</th>
+            <th scope="col">Animal</th>
+            <th scope="col">Ubicación</th>
+            <th scope="col">Fecha</th>
+            <th scope="col">Estado</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>RES-001</td>
+            <td>Perro</td>
+            <td>Portoviejo, sector centro</td>
+            <td>2026-10-10</td>
+            <td>Rescatado</td>
+          </tr>
+          <tr>
+            <td>RES-002</td>
+            <td>Gato</td>
+            <td>Portoviejo, sector San Pablo</td>
+            <td>2026-10-15</td>
+            <td>En evaluación</td>
+          </tr>
+          <tr>
+            <td>RES-003</td>
+            <td>Perro</td>
+            <td>Portoviejo, sector Picoazá</td>
+            <td>2026-10-20</td>
+            <td>Pendiente de atención</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section aria-labelledby="estados">
+      <h2 id="estados">Descripción de los estados</h2>
+      <dl>
+        <dt>Pendiente de atención</dt>
+        <dd>El reporte fue registrado y espera revisión.</dd>
+        <dt>En evaluación</dt>
+        <dd>El caso está siendo revisado para determinar las acciones necesarias.</dd>
+        <dt>Rescatado</dt>
+        <dd>El animal recibió atención y fue trasladado a un lugar seguro.</dd>
+      </dl>
+    </section>
+
+    <section aria-labelledby="proceso">
+      <h2 id="proceso">Etapas del proceso</h2>
+      <ol>
+        <li>Recepción del reporte.</li>
+        <li>Verificación de la información.</li>
+        <li>Coordinación y atención del rescate.</li>
+        <li>Seguimiento y posible proceso de adopción.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="index.html">Volver al inicio</a> | <a href="reportar.html">Registrar un reporte</a></p>
+    <p>Proyecto académico de control de rescate y adopción animal.</p>
+  </footer>
+</body>
+</html>
